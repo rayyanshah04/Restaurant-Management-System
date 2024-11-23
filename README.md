@@ -27,3 +27,38 @@ Run the following command in your terminal to clone the repository:
 ```bash
 git clone https://github.com/rayyanshah04/Restaurant-Management-System.git
 ```
+
+### Step 2: Move and Rename the Project Directory
+
+Rename the cloned directory to `sem2Project` and navigate into it:
+
+#### For Linux/WSL:
+```bash
+mv Restaurant-Management-System sem2Project
+cd sem2Project
+```
+#### Windows (Command Prompt or PowerShell):
+```powershell
+rename Restaurant-Management-System sem2Project
+cd sem2Project
+```
+
+### Step 3: Compile the Java Files
+
+Compile the Java files using the `javac` command. Run the following in your terminal:
+
+```bash
+javac -d out -sourcepath . CalculatePrice/*.java GetOrder/*.java Menu/*.java Payment/*.java TableAssignment/*.java UserDetails/*.java Main.java
+```
+
+This command will compile all the Java files and place the class files in the `out` directory.
+
+### Step 4: Run the Program
+
+Once the compilation is complete, run the project with the following command:
+
+```bash
+java -cp out sem2Project.Main
+```
+
+This will execute the `Main` class of the project and run the restaurant management system.
