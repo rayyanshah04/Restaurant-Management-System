@@ -26,3 +26,4 @@ Run the following command in your terminal to clone the repository:
 
 ```bash
 git clone https://github.com/rayyanshah04/Restaurant-Management-System.git
+```
